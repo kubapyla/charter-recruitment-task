@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should match snapshot 1`] = `
+<BrowserRouter>
+  <Container
+    marginBottom={20}
+    maxW={1000}
+  >
+    <Stack
+      direction="row"
+      paddingBottom={5}
+      paddingTop={5}
+    >
+      <Button
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        colorScheme="blue"
+        to="/"
+      >
+        Home
+      </Button>
+    </Stack>
+    <Divider />
+    <Switch>
+      <Route
+        path="/customer/:id"
+      >
+        <CustomerTransactionsList
+          customers={Array []}
+          transactions={Array []}
+        />
+      </Route>
+      <Route
+        path="/"
+      >
+        <CustomersList
+          customers={Array []}
+          generateNewDataset={[Function]}
+        />
+      </Route>
+    </Switch>
+  </Container>
+</BrowserRouter>
+`;

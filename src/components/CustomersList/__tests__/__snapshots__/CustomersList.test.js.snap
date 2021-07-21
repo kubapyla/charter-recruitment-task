@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomersList should match snapshot 1`] = `
+<Fragment>
+  <Stack
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": [Function],
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          [Function],
+        ],
+        "defaultProps": undefined,
+        "render": [Function],
+        "withComponent": [Function],
+      }
+    }
+    py={
+      Object {
+        "base": 8,
+        "md": 14,
+      }
+    }
+    spacing={
+      Object {
+        "base": 8,
+        "md": 14,
+      }
+    }
+    textAlign="center"
+  >
+    <Heading
+      fontSize={
+        Object {
+          "base": "2xl",
+          "md": "6xl",
+          "sm": "4xl",
+        }
+      }
+      fontWeight={600}
+      lineHeight="110%"
+    >
+      Charter 
+      <br />
+      <Text
+        as="span"
+        color="green.400"
+      >
+        Recruitment Task
+      </Text>
+    </Heading>
+    <Stack
+      align="center"
+      alignSelf="center"
+      direction="column"
+      position="relative"
+      spacing={3}
+    >
+      <Button
+        _hover={
+          Object {
+            "bg": "green.500",
+          }
+        }
+        bg="green.400"
+        colorScheme="green"
+        onClick={[MockFunction]}
+        px={6}
+        rounded="full"
+      >
+        Generate new dataset
+      </Button>
+    </Stack>
+  </Stack>
+  <Stack
+    align="center"
+    alignSelf="center"
+    direction="column"
+    position="relative"
+    spacing={3}
+  >
+    <Heading
+      fontWeight={600}
+      lineHeight="110%"
+      paddingBottom={10}
+    >
+      Customers List
+    </Heading>
+    <Table
+      variant="simple"
+    >
+      <ForwardRef>
+        <ForwardRef>
+          <ForwardRef>
+            Customer ID
+          </ForwardRef>
+          <ForwardRef>
+            Customer Name
+          </ForwardRef>
+          <ForwardRef
+            isNumeric={true}
+          >
+            Transactions list
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+      <ForwardRef>
+        <ForwardRef
+          key="1"
+        >
+          <ForwardRef>
+            1
+          </ForwardRef>
+          <ForwardRef>
+            John Smith
+          </ForwardRef>
+          <ForwardRef
+            isNumeric={true}
+          >
+            <Button
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              colorScheme="blue"
+              to="/customer/1"
+            >
+              See list
+            </Button>
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef
+          key="2"
+        >
+          <ForwardRef>
+            2
+          </ForwardRef>
+          <ForwardRef>
+            Jenny Smith
+          </ForwardRef>
+          <ForwardRef
+            isNumeric={true}
+          >
+            <Button
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              colorScheme="blue"
+              to="/customer/2"
+            >
+              See list
+            </Button>
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+    </Table>
+  </Stack>
+</Fragment>
+`;

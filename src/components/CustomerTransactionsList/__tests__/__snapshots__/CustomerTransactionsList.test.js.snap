@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerTransactionsList should match snapshot 1`] = `
+<Stack
+  paddingTop={10}
+  spacing={3}
+>
+  <Stack
+    align="center"
+    alignSelf="center"
+    direction="column"
+    position="relative"
+    spacing={3}
+  >
+    <Stack
+      align="center"
+      alignSelf="center"
+      minW={500}
+      paddingBottom={10}
+    >
+      <Heading
+        fontWeight={600}
+        lineHeight="110%"
+      >
+        John Smith
+      </Heading>
+      <Stack
+        align="center"
+        alignSelf="center"
+        direction="row"
+      >
+        <Stat
+          align="center"
+          alignSelf="center"
+          minW={200}
+        >
+          <StatLabel>
+            Total points
+          </StatLabel>
+          <StatNumber>
+            378
+          </StatNumber>
+        </Stat>
+      </Stack>
+    </Stack>
+    <Stack
+      direction="row"
+    >
+      <Button
+        disabled={true}
+        onClick={[Function]}
+      >
+        All transactions
+      </Button>
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        July
+      </Button>
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        June
+      </Button>
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        May
+      </Button>
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        April
+      </Button>
+    </Stack>
+    <Table
+      variant="simple"
+    >
+      <ForwardRef>
+        <ForwardRef>
+          <ForwardRef>
+            Transaction ID
+          </ForwardRef>
+          <ForwardRef>
+            Product name
+          </ForwardRef>
+          <ForwardRef>
+            Transaction date
+          </ForwardRef>
+          <ForwardRef>
+            Amount
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+      <ForwardRef>
+        <ForwardRef
+          key="0"
+        >
+          <ForwardRef>
+            0
+          </ForwardRef>
+          <ForwardRef>
+            Table
+          </ForwardRef>
+          <ForwardRef>
+            2021-07-10
+          </ForwardRef>
+          <ForwardRef>
+            249 USD
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef
+          key="1"
+        >
+          <ForwardRef>
+            1
+          </ForwardRef>
+          <ForwardRef>
+            Chair
+          </ForwardRef>
+          <ForwardRef>
+            2021-06-10
+          </ForwardRef>
+          <ForwardRef>
+            80 USD
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+    </Table>
+  </Stack>
+</Stack>
+`;
