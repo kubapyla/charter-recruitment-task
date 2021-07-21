@@ -10,6 +10,10 @@
 - Added tests for `getRewardPoints`, `getCustomerTransactions`, `getTransactionsFromMonth`
 - Added simple snapshot tests for components just to showoff that adapter is working
 - Added eslint and prettier to keep project clean
+
+![Customer list preview](customers_list.png)
+
+![Customer transactions list preview](customer_transactions_list.png)
 ____
 
 ### `yarn start`
